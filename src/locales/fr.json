@@ -1,0 +1,31 @@
+{
+  "site": {
+    "title": "Lembrez Shun",
+    "subtitle": "Design & développement web — React, TypeScript"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos"
+  },
+  "projects": {
+    "title": "Projets sélectionnés",
+    "project1": {
+      "title": "Projet Un",
+      "description": "Une courte description du projet un."
+    },
+    "project2": {
+      "title": "Projet Deux",
+      "description": "Une courte description du projet deux."
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis un développeur qui aime créer des interfaces propres et rapides."
+  },
+  "buttons": {
+    "downloadCV": "Télécharger le CV"
+  },
+  "footer": {
+    "text": "© 2025 Lembrez Shun. Tous droits réservés."
+  }
+}
