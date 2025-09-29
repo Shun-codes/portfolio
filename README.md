@@ -36,6 +36,7 @@ Portfolio personnel moderne construit avec **React**, **TypeScript** et **Tailwi
 
 ---
 
+C'est tout pour le moment :) 
 ---
 
 ### Installation
@@ -51,6 +52,7 @@ npm install
 
 # Lancer en développement
 npm run dev
+```
 
 ## 👤 Auteur
 
