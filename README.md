@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# 🎨 Portfolio - Shun Lembrez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personnel moderne construit avec **React**, **TypeScript** et **Tailwind CSS**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌓 **Design moderne** avec fond sombre et effets de dégradé
+- 🌐 **Multilingue** (FR/EN) avec i18next
+- 📱 **Responsive** - Optimisé mobile, tablette et desktop
+- ⚡ **Performance** - Build ultra-rapide avec Vite
+- 🎯 **Navigation fluide** entre les pages
+- 💼 **Téléchargement CV** intégré
 
-## Expanding the ESLint configuration
+...
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📄 Contenu
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Pages disponibles
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Home** - Page d'accueil avec présentation
+- **About** - À propos de moi et téléchargement du CV
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+...
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Navigation
+
+- Barre de navigation fixe avec effet
+- Indicateur visuel de la page active
+- Bouton de changement de langue (FR/EN)
+
+---
+
+---
+
+### Installation
+```bash
+# Cloner le projet
+git clone https://github.com/Shun-codes/portfolio.git
+
+# Aller dans le dossier
+cd portfolio
+
+# Installer les dépendances
+npm install
+
+# Lancer en développement
+npm run dev
+
+## 👤 Auteur
+
+**Shun Lembrez**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shun-lembrez)
+
+
+---
+
+**Mes autres projets :**
+
+- 🎮 [Bomberman JavaFX](https://github.com/Shun-codes/BombermanJavaFX) - Jeu Bomberman en Java/JavaFX
+- 🎬 [L'Air du Cinéma](https://github.com/Shun-codes/L-Air-du-Cinema) - Site vitrine d'entreprise fictive
+
+---
