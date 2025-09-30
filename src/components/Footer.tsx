@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               GitHub
             </a>
             <a 
-              href="www.linkedin.com/in/shun-lembrez" 
+              href="https://www.linkedin.com/in/shun-lembrez/" 
               target="_blank" 
               rel="noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"
