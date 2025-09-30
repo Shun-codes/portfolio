@@ -22,8 +22,8 @@ const About: React.FC = () => {
           {/* Download CV Button */}
           <div className="pt-8">
             <a 
-              href="../../public/CV_SHUN_2025.pdf" 
-              download 
+              href="/CV_SHUN_2025.pdf" 
+              download ="CV_SHUN_2025.pdf"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
