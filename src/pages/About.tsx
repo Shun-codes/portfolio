@@ -19,6 +19,46 @@ const About: React.FC = () => {
             {t('about.description')}
           </p>
 
+          {/* Formations / Experiences Section */}
+      <div className="mb-16 sm:mb-20">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 sm:mb-12 text-center px-4">
+          <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+            Formations / Experiences
+          </span>
+        </h2>
+        
+        {/* Grid centré avec max-width */}
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
+            {/* Formation 1 */}
+            <div
+              className="w-full max-w-md bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-5 sm:p-6 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 cursor-pointer"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-1">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-1">
+                    {t('about.titleF1')}
+                  </h3>
+                  <p className="text-purple-400 font-medium mb-1 text-sm sm:text-base">
+                    {t('about.institutionF1')}
+                  </p>
+                  <p className="text-gray-500 italic text-xs sm:text-sm mb-3">
+                    {t('about.periodF1')}
+                  </p>
+                  <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
+                    {t('about.descriptionF1')}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Formation 2*/}
+
+
+          </div>
+        </div>
+      </div>
+
           {/* Download CV Button */}
           <div className="pt-8">
             <a 
@@ -44,5 +84,6 @@ const About: React.FC = () => {
     </div>
   );
 };
+
 
 export default About;

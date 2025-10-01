@@ -20,7 +20,11 @@
   },
   "about": {
     "title": "À propos de moi",
-    "description": "Je suis un développeur qui aime créer des interfaces propres et rapides."
+    "description": "Je m'appelle Lembrez Shun, étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Je suis passionné par les nouvelles technologies, j'ai pu en découvrir et en apprendre de nouvelles, à travers mes études et mes projets personnels. Je suis Curieux et motivé, et toujours à la recherche de nouveaux défis pour pour approfondir mes connaissances dans le domaine de l'informatique.",
+    "titleF1": "BUT Informatique",
+    "institutionF1": "IUT de Lens",
+    "periodF1": "Septembre 2024 - Présent",
+    "descriptionF1": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données SQLite et PostgreSQL, ainsi que la conception d'applications web. Participation à des projets collaboratifs et apprentissage des méthodes agiles."
   },
   "buttons": {
     "downloadCV": "Télécharger le CV"

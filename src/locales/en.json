@@ -19,8 +19,12 @@
     }
   },
   "about": {
-    "title": "About me",
-    "description": "I’m a developer who likes to build clean UI and fast experiences."
+  "title": "About Me",
+  "description": "My name is Lembrez Shun, a second-year student in Bachelor of Technology in Computer Science at IUT de Lens. I am passionate about new technologies, which I have been able to discover and learn through my studies and personal projects. I am curious and motivated, always seeking new challenges to deepen my knowledge in the field of computer science.",
+  "titleF1": "Bachelor of Technology in Computer Science",
+  "institutionF1": "IUT de Lens",
+  "periodF1": "September 2024 - Present",
+  "descriptionF1": "Training focused on software development, including programming in Java, Python, and PHP, database management with SQLite and PostgreSQL, as well as web application design. Participation in collaborative projects and learning of agile methodologies."
   },
   "buttons": {
     "downloadCV": "Download CV"
