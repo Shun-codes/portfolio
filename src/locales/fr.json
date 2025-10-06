@@ -21,10 +21,13 @@
   "about": {
     "title": "À propos de moi",
     "description": "Je m'appelle Lembrez Shun, étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Je suis passionné par les nouvelles technologies, j'ai pu en découvrir et en apprendre de nouvelles, à travers mes études et mes projets personnels. Je suis Curieux et motivé, et toujours à la recherche de nouveaux défis pour pour approfondir mes connaissances dans le domaine de l'informatique.",
+    
+    "titleFormations": "Formations",
     "titleF1": "BUT Informatique",
     "institutionF1": "IUT de Lens",
     "periodF1": "Septembre 2024 - Présent",
     "descriptionF1": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données SQLite et PostgreSQL, ainsi que la conception d'applications web. Participation à des projets collaboratifs et apprentissage des méthodes agiles.",
+    
     "titleF2": "Baccalauréat général",
     "institutionF2": "Lycée Anatole France, Lillers",
     "periodF2": "Septembre 2021 - Juillet 2024",
@@ -33,7 +36,23 @@
     "specialitiesLabelF2": "Spécialités :",
     "specialitiesF2": "Mathématiques, Numérique et Sciences Informatiques (NSI)",
     "optionLabelF2": "Option :",
-    "optionF2": "Mathématiques Expertes"
+    "optionF2": "Mathématiques Expertes",
+
+    "titleExperiences": "Expériences",
+    "titleE1": "Tuteur étudiant - Accompagnement pédagogique",
+    "companyE1": "IUT de Lens",
+    "periodE1": "Septembre 2025 - Présent",
+    "descriptionE1": "Tutorats hebdomadaires auprès d’étudiants de première année : aide à la compréhension des cours, soutien personnalisé et suivi de progression. Développement de compétences en pédagogie, communication et organisation.",
+
+    "titleE2": "Stage d'observation en service informatique",
+    "companyE2": "ALKERN",
+    "periodE2": "Juin 2021",
+    "descriptionE2": "Immersion complète dans un service informatique d'entreprise : support utilisateur, maintenance système et découverte du développement.",
+    "Tirer1E2": "Gestion des sauvegardes et support technique (hardware/software)",
+    "Tirer2E2": "Découverte langages pro : PHP, LANSA, RPG",
+    "Tirer3E2": "Infrastructure : serveurs Windows, IBM AS/400, réseau & téléphonie IP",
+    "projectLinkE2": "https://alkern.zerbmel.fr/",
+    "projectButtonE2": "Voir le site créé"
   },
   "buttons": {
     "downloadCV": "Télécharger le CV"

@@ -23,11 +23,10 @@ const About: React.FC = () => {
           <div className="mb-16 sm:mb-20">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 sm:mb-12 text-center px-4">
               <span className="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
-                Formations
+                {t('about.titleFormations')}
               </span>
             </h2>
         
-            {/* Grid centré avec max-width */}
             <div className="max-w-6xl mx-auto">
               <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
                 {/* Formation 1 */}
@@ -80,6 +79,93 @@ const About: React.FC = () => {
                           <span className="text-gray-300 font-semibold">{t('about.optionLabelF2')}</span> {t('about.optionF2')}
                         </p>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Experiences Section */}
+          <div className="mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 sm:mb-10 text-center px-4">
+              <span className="bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
+                  {t('about.titleExperiences')}
+              </span>
+            </h2>
+        
+            <div className="max-w-6xl mx-auto">
+              <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
+                {/* Experience 1 */}
+                <div
+                  className="w-full max-w-md bg-gradient-to-br from-amber-900/20 to-yellow-900/20 backdrop-blur-sm border-2 border-amber-500/30 rounded-xl p-5 sm:p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-400/30 hover:border-amber-500/50 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-1">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-1">
+                        {t('about.titleE1')}
+                      </h3>
+                      <p className="text-amber-400 font-medium mb-1 text-sm sm:text-base">
+                        {t('about.companyE1')}
+                      </p>
+                      <p className="text-gray-500 italic text-xs sm:text-sm mb-3">
+                        {t('about.periodE1')}
+                      </p>
+                      <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
+                        {t('about.descriptionE1')}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Experience 2 */}
+                <div
+                  className="w-full max-w-md bg-gradient-to-br from-amber-900/20 to-yellow-900/20 backdrop-blur-sm border-2 border-amber-500/30 rounded-xl p-5 sm:p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-400/30 hover:border-amber-500/50 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-1">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-1">
+                        {t('about.titleE2')}
+                      </h3>
+                      <p className="text-amber-400 font-medium mb-1 text-sm sm:text-base">
+                        {t('about.companyE2')}
+                      </p>
+                      <p className="text-gray-500 italic text-xs sm:text-sm mb-3">
+                        {t('about.periodE2')}
+                      </p>
+                      <p className="text-gray-400 leading-relaxed text-sm sm:text-base mb-3">
+                        {t('about.descriptionE2')}
+                      </p>
+                      
+                      <div className="space-y-2 mb-3">
+                        <div className="flex items-start gap-2">
+                          <span className="text-amber-400 mt-1">•</span>
+                          <p className="text-gray-300 text-sm">{t('about.Tirer1E2')}</p>
+                        </div>
+                        <div className="flex items-start gap-2">
+                          <span className="text-amber-400 mt-1">•</span>
+                          <p className="text-gray-300 text-sm">{t('about.Tirer2E2')}</p>
+                        </div>
+                        <div className="flex items-start gap-2">
+                          <span className="text-amber-400 mt-1">•</span>
+                          <p className="text-gray-300 text-sm">{t('about.Tirer3E2')}</p>
+                        </div>
+                      </div>
+
+                      {/* Project Link tuto yt*/}
+                      {t('about.projectLinkE2') && (
+                        <a
+                          href={t('about.projectLinkE2')}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/20 hover:bg-amber-500/30 text-amber-400 rounded-lg text-sm font-medium transition-all duration-300 border border-amber-500/30 hover:border-amber-500/50"
+                        >
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                          {t('about.projectButtonE2')}
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
