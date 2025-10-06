@@ -24,7 +24,16 @@
   "titleF1": "Bachelor of Technology in Computer Science",
   "institutionF1": "IUT de Lens",
   "periodF1": "September 2024 - Present",
-  "descriptionF1": "Training focused on software development, including programming in Java, Python, and PHP, database management with SQLite and PostgreSQL, as well as web application design. Participation in collaborative projects and learning of agile methodologies."
+  "descriptionF1": "Training focused on software development, including programming in Java, Python, and PHP, database management with SQLite and PostgreSQL, as well as web application design. Participation in collaborative projects and learning of agile methodologies.",
+  "titleF2": "French Baccalaureate",
+  "institutionF2": "Lycée Anatole France, Lillers",
+  "periodF2": "September 2021 - July 2024",
+  "descriptionF2": "High honors – Specializations: Mathematics, Computer Science and Digital Sciences (NSI) Option: Advanced Mathematics",
+  "mentionF2": "High Honors",
+  "specialitiesLabelF2": "Specializations:",
+  "specialitiesF2": "Mathematics, Computer Science and Digital Sciences (NSI)",
+  "optionLabelF2": "Option:",
+  "optionF2": "Advanced Mathematics"
   },
   "buttons": {
     "downloadCV": "Download CV"

@@ -24,7 +24,16 @@
     "titleF1": "BUT Informatique",
     "institutionF1": "IUT de Lens",
     "periodF1": "Septembre 2024 - Présent",
-    "descriptionF1": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données SQLite et PostgreSQL, ainsi que la conception d'applications web. Participation à des projets collaboratifs et apprentissage des méthodes agiles."
+    "descriptionF1": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données SQLite et PostgreSQL, ainsi que la conception d'applications web. Participation à des projets collaboratifs et apprentissage des méthodes agiles.",
+    "titleF2": "Baccalauréat général",
+    "institutionF2": "Lycée Anatole France, Lillers",
+    "periodF2": "Septembre 2021 - Juillet 2024",
+    "descriptionF2": "Mention Très Bien Spécialités : Mathématiques, Numérique et Sciences Informatiques (NSI) Option : Mathématiques Expertes",
+    "mentionF2": "Mention Très Bien",
+    "specialitiesLabelF2": "Spécialités :",
+    "specialitiesF2": "Mathématiques, Numérique et Sciences Informatiques (NSI)",
+    "optionLabelF2": "Option :",
+    "optionF2": "Mathématiques Expertes"
   },
   "buttons": {
     "downloadCV": "Télécharger le CV"
