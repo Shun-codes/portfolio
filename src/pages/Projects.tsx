@@ -52,10 +52,10 @@ const Projects: React.FC = () => {
                   
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2 pt-2">
-                    {t('projects.techP1', { returnObjects: true }).map((tech: string, index: number) => (
-                      <span key={index} className="px-3 py-1 bg-gray-700/50 text-gray-300 text-sm rounded-lg border border-gray-600">
+                    {(t('projects.techP1', { returnObjects: true }) as string[]).map((tech, index) => (
+                    <span key={index} className="px-3 py-1 bg-gray-700/50 text-gray-300 text-sm rounded-lg border border-gray-600">
                         {tech}
-                      </span>
+                    </span>
                     ))}
                   </div>
                   
@@ -118,10 +118,10 @@ const Projects: React.FC = () => {
                   
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2 pt-2">
-                    {t('projects.techP2', { returnObjects: true }).map((tech: string, index: number) => (
-                      <span key={index} className="px-3 py-1 bg-gray-700/50 text-gray-300 text-sm rounded-lg border border-gray-600">
+                    {(t('projects.techP2', { returnObjects: true }) as string[]).map((tech, index) => (
+                    <span key={index} className="px-3 py-1 bg-gray-700/50 text-gray-300 text-sm rounded-lg border border-gray-600">
                         {tech}
-                      </span>
+                    </span>
                     ))}
                   </div>
                   
