@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface HeaderProps {
-  currentPage: 'home' | 'about';
-  setCurrentPage: (page: 'home' | 'about') => void;
+  currentPage: 'home' | 'about' | 'projects';
+  setCurrentPage: (page: 'home' | 'about' | 'projects') => void;
 }
 
 const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
     i18n.changeLanguage(newLang);
   };
 
-  const handleNavigate = (page: 'home' | 'about') => {
+  const handleNavigate = (page: 'home' | 'about' | 'projects') => {
     setCurrentPage(page);
     setIsMenuOpen(false);
   };
@@ -58,6 +58,21 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             >
               {t('nav.about')}
               {currentPage === 'about' && (
+                <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-yellow-400 to-amber-500"></span>
+              )}
+            </button>
+
+            {/* Buttons pour Projects */}
+            <button
+              onClick={() => setCurrentPage('projects')}
+              className={`relative px-4 py-2 font-medium transition-all duration-300 ${
+                currentPage === 'projects'
+                  ? 'text-yellow-400'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              {t('nav.projects')}
+              {currentPage === 'projects' && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-yellow-400 to-amber-500"></span>
               )}
             </button>
@@ -121,6 +136,18 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               }`}
             >
               {t('nav.about')}
+            </button>
+
+            {/* Buttons pour Projects */}
+            <button
+              onClick={() => handleNavigate('projects')}
+              className={`px-4 py-3 text-left font-medium transition-all duration-300 rounded-lg ${
+                currentPage === 'projects'
+                  ? 'text-yellow-400 bg-yellow-500/10'
+                  : 'text-gray-400 hover:text-white hover:bg-gray-800/50'
+              }`}
+            >
+              {t('nav.projects')}
             </button>
 
             {/* Button pour changer langue */}
