@@ -4,12 +4,13 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
+import Skills from './pages/Skills';
 import './i18n';
 
 
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'projects'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'skills' | 'projects'>('home');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 text-white">
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <main className="pt-24 min-h-screen">
         {currentPage === 'home' && <Home />}
         {currentPage === 'about' && <About />}
+        {currentPage === 'skills' && <Skills />}
         {currentPage === 'projects' && <Projects />}
       </main>
       
