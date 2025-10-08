@@ -6,7 +6,19 @@
   "nav": {
     "home": "Accueil",
     "about": "À propos",
+    "skills": "Compétences",
     "projects": "Projets"
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "subtitle": "Technologies et outils que je maîtrise pour donner vie à vos projets",
+    "category": {
+      "frontend": "Développement Web",
+      "frameworks": "Frameworks",
+      "appdev": "Développement d'application",
+      "databases": "Bases de données",
+      "tools": "Outils"
+    }
   },
   "projects": {
     "title": "Mes Projets",

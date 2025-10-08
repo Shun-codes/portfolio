@@ -6,7 +6,19 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "skills": "Skills",
     "projects": "Projects"
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies and tools I master to bring your projects to life",
+    "category": {
+      "frontend": "Web Development",
+      "frameworks": "Frameworks",
+      "appdev": "App Development",
+      "databases": "Databases",
+      "tools": "Tools"
+    }
   },
   "projects": {
     "title": "My Projects",
