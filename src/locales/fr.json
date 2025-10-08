@@ -9,39 +9,6 @@
     "skills": "Compétences",
     "projects": "Projets"
   },
-  "skills": {
-    "title": "Mes Compétences",
-    "subtitle": "Technologies et outils que je maîtrise pour donner vie à vos projets",
-    "category": {
-      "frontend": "Développement Web",
-      "frameworks": "Frameworks",
-      "appdev": "Développement d'application",
-      "databases": "Bases de données",
-      "tools": "Outils"
-    }
-  },
-  "projects": {
-    "title": "Mes Projets",
-    "subtitle": "Découvrez mes réalisations et expérimentations",
-    "viewDemo": "Voir la démo",
-    
-    "categoryP1": "App Java",
-    "dateP1": "2025",
-    "titleP1": "Bomberman JavaFX",
-    "imageP1": "/images/project1.png",
-    "descriptionP1": "Un projet de Bomberman développé en Java avec une interface graphique en JavaFX.",
-    "techP1": ["Java", "JavaFX", "FXML", "Maven", "Git", "GitHub"],
-    "demoLinkP1": "",
-    "githubLinkP1": "https://github.com/Shun-codes/BombermanJavaFX",
-    
-    "categoryP2": "Site Web",
-    "dateP2": "2024",
-    "titleP2": "L’Air du Cinéma",
-    "imageP2": "/images/project2.png",
-    "descriptionP2": "L’Air du Cinéma est un site web statique créé dans le cadre du projet du premier semestre. Il s’agit d’une entreprise fictive spécialisée dans l’organisation d’événements cinéma en plein air.",
-    "techP2": ["HTML", "CSS","Git", "GitHub"],
-    "githubLinkP2": "https://github.com/Shun-codes/L-Air-du-Cinema"
-  },
   "about": {
     "title": "À propos de moi",
     "description": "Je m'appelle Lembrez Shun, étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Je suis passionné par les nouvelles technologies, j'ai pu en découvrir et en apprendre de nouvelles, à travers mes études et mes projets personnels. Je suis Curieux et motivé, et toujours à la recherche de nouveaux défis pour pour approfondir mes connaissances dans le domaine de l'informatique.",
@@ -80,6 +47,39 @@
   },
   "buttons": {
     "downloadCV": "Télécharger le CV"
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "subtitle": "Technologies et outils que je maîtrise pour donner vie à vos projets",
+    "category": {
+      "frontend": "Développement Web",
+      "frameworks": "Frameworks",
+      "appdev": "Développement d'application",
+      "databases": "Bases de données",
+      "tools": "Outils"
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "subtitle": "Découvrez mes réalisations et expérimentations",
+    "viewDemo": "Voir la démo",
+    
+    "categoryP1": "App Java",
+    "dateP1": "2025",
+    "titleP1": "Bomberman JavaFX",
+    "imageP1": "/images/project1.png",
+    "descriptionP1": "Un projet de Bomberman développé en Java avec une interface graphique en JavaFX.",
+    "techP1": ["Java", "JavaFX", "FXML", "Maven", "Git", "GitHub"],
+    "demoLinkP1": "",
+    "githubLinkP1": "https://github.com/Shun-codes/BombermanJavaFX",
+    
+    "categoryP2": "Site Web",
+    "dateP2": "2024",
+    "titleP2": "L’Air du Cinéma",
+    "imageP2": "/images/project2.png",
+    "descriptionP2": "L’Air du Cinéma est un site web statique créé dans le cadre du projet du premier semestre. Il s’agit d’une entreprise fictive spécialisée dans l’organisation d’événements cinéma en plein air.",
+    "techP2": ["HTML", "CSS","Git", "GitHub"],
+    "githubLinkP2": "https://github.com/Shun-codes/L-Air-du-Cinema"
   },
   "footer": {
     "text": "© 2025 Lembrez Shun. Tous droits réservés."
