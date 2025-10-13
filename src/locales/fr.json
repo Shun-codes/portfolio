@@ -3,6 +3,24 @@
     "title": "Lembrez Shun",
     "subtitle": "Design & développement web — React, TypeScript"
   },
+  "home": {
+    "bienvenue": "Bienvenue sur mon portfolio",
+    "title": "Lembrez Shun",
+    "subtitle": "Étudiant en BUT Informatique",
+    "description": "Je m'appelle Lembrez Shun, étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Je suis passionné par les nouvelles technologies, j'ai pu en découvrir et en apprendre de nouvelles à travers mes études et mes projets personnels. Je suis curieux et motivé, et toujours à la recherche de nouveaux défis pour approfondir mes connaissances dans le domaine de l'informatique.",
+    "aboutButton": "En savoir plus sur moi",
+
+    "skillsTitle": "Compétences",
+    "skillsDescription": "Au cours de ma formation et de mes projets, j'ai développé des compétences variées en développement web, programmation orientée objet, bases de données et bien plus encore.",
+    "viewAllSkills": "Voir toutes mes compétences",
+
+    "projectsTitle": "Projets récents",
+    "projectsDescription": "Découvrez mes réalisations récentes, allant du développement web à la création d'applications complètes.",
+    "project1Title" : "Bomberman",
+    "project2Title" : "Site Web entreprise",
+    "viewProjectButton" : "Voir le projet",
+    "viewAllProjects": "Voir tous mes projets"
+  },
   "nav": {
     "home": "Accueil",
     "about": "À propos",

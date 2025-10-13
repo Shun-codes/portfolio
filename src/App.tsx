@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       
       <main className="pt-24 min-h-screen">
-        {currentPage === 'home' && <Home />}
+        {currentPage === 'home' && <Home setCurrentPage={setCurrentPage} />}
         {currentPage === 'about' && <About />}
         {currentPage === 'skills' && <Skills />}
         {currentPage === 'projects' && <Projects />}

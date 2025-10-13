@@ -3,6 +3,24 @@
     "title": "Lembrez Shun",
     "subtitle": "Design & web development — React, TypeScript"
   },
+  "home": {
+    "bienvenue": "Welcome to my portfolio",
+    "title": "Lembrez Shun",
+    "subtitle": "Computer Science Student",
+    "description": "My name is Lembrez Shun, a second-year Computer Science student at IUT de Lens. Passionate about new technologies, I have discovered and learned many skills through my studies and personal projects. I am curious and motivated, always seeking new challenges to deepen my knowledge in the field of computer science.",
+    "aboutButton": "Learn more about me",
+
+    "skillsTitle": "Skills",
+    "skillsDescription": "Throughout my studies and projects, I have developed a wide range of skills in web development, object-oriented programming, databases, and more.",
+    "viewAllSkills": "View all my skills",
+
+    "projectsTitle": "Recent Projects",
+    "projectsDescription": "Discover my recent works, ranging from web development to complete application creation.",
+    "project1Title" : "Bomberman",
+    "project2Title" : "Website ",
+    "viewProjectButton" : "View the project",
+    "viewAllProjects": "View all my projects"
+  },
   "nav": {
     "home": "Home",
     "about": "About",
