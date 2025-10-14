@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           
           {/* Texte du footer */}
           <div className="text-gray-400">
-            {t('footer.text')}
+            © {new Date().getFullYear()} {t('footer.text')}
           </div>
           
           {/* Liens */}
