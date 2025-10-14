@@ -3,6 +3,13 @@
     "title": "Lembrez Shun",
     "subtitle": "Design & développement web — React, TypeScript"
   },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
   "home": {
     "bienvenue": "Bienvenue sur mon portfolio",
     "title": "Lembrez Shun",
@@ -20,12 +27,6 @@
     "project2Title" : "Site Web entreprise",
     "viewProjectButton" : "Voir le projet",
     "viewAllProjects": "Voir tous mes projets"
-  },
-  "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "skills": "Compétences",
-    "projects": "Projets"
   },
   "about": {
     "title": "À propos de moi",
@@ -99,7 +100,27 @@
     "techP2": ["HTML", "CSS","Git", "GitHub"],
     "githubLinkP2": "https://github.com/Shun-codes/L-Air-du-Cinema"
   },
+  "contact": {
+    "title": "Contactez-moi",
+    "intro": "Vous trouverez ci-dessous mes coordonnées ainsi qu’un formulaire de contact si vous souhaitez échanger directement par mail.",
+    "infoTitle": "Mes coordonnées",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "phone": "Téléphone",
+    "formTitle": "Formulaire de contact",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Objet",
+      "message": "Message",
+      "submit": "Envoyer le message"
+    },
+    "status": {
+      "success": "Message envoyé avec succès !",
+      "error": "Une erreur est survenue. Réessayez."
+    }
+  },
   "footer": {
-    "text": "© 2025 Lembrez Shun. Tous droits réservés."
+    "text": "Lembrez Shun. Tous droits réservés."
   }
 }

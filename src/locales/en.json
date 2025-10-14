@@ -3,6 +3,13 @@
     "title": "Lembrez Shun",
     "subtitle": "Design & web development — React, TypeScript"
   },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "home": {
     "bienvenue": "Welcome to my portfolio",
     "title": "Lembrez Shun",
@@ -21,47 +28,41 @@
     "viewProjectButton" : "View the project",
     "viewAllProjects": "View all my projects"
   },
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "projects": "Projects"
-  },
   "about": {
-  "title": "About Me",
-  "description": "My name is Lembrez Shun, a second-year student in Bachelor of Technology in Computer Science at IUT de Lens. I am passionate about new technologies, which I have been able to discover and learn through my studies and personal projects. I am curious and motivated, always seeking new challenges to deepen my knowledge in the field of computer science.",
+    "title": "About Me",
+    "description": "My name is Lembrez Shun, a second-year student in Bachelor of Technology in Computer Science at IUT de Lens. I am passionate about new technologies, which I have been able to discover and learn through my studies and personal projects. I am curious and motivated, always seeking new challenges to deepen my knowledge in the field of computer science.",
   
-  "titleFormations": "Formations",
-  "titleF1": "Bachelor of Technology in Computer Science",
-  "institutionF1": "University Institute of Technology (IUT) of Lens",
-  "periodF1": "September 2024 - Present",
-  "descriptionF1": "Training focused on software development, including programming in Java, Python, and PHP, database management with SQLite and PostgreSQL, as well as web application design. Participation in collaborative projects and learning of agile methodologies.",
+    "titleFormations": "Formations",
+    "titleF1": "Bachelor of Technology in Computer Science",
+    "institutionF1": "University Institute of Technology (IUT) of Lens",
+    "periodF1": "September 2024 - Present",
+    "descriptionF1": "Training focused on software development, including programming in Java, Python, and PHP, database management with SQLite and PostgreSQL, as well as web application design. Participation in collaborative projects and learning of agile methodologies.",
   
-  "titleF2": "French Baccalaureate",
-  "institutionF2": "Lycée Anatole France, Lillers",
-  "periodF2": "September 2021 - July 2024",
-  "descriptionF2": "High honors – Specializations: Mathematics, Computer Science and Digital Sciences (NSI) Option: Advanced Mathematics",
-  "mentionF2": "High Honors",
-  "specialitiesLabelF2": "Specializations:",
-  "specialitiesF2": "Mathematics, Computer Science and Digital Sciences (NSI)",
-  "optionLabelF2": "Option:",
-  "optionF2": "Advanced Mathematics",
+    "titleF2": "French Baccalaureate",
+    "institutionF2": "Lycée Anatole France, Lillers",
+    "periodF2": "September 2021 - July 2024",
+    "descriptionF2": "High honors – Specializations: Mathematics, Computer Science and Digital Sciences (NSI) Option: Advanced Mathematics",
+    "mentionF2": "High Honors",
+    "specialitiesLabelF2": "Specializations:",
+    "specialitiesF2": "Mathematics, Computer Science and Digital Sciences (NSI)",
+    "optionLabelF2": "Option:",
+    "optionF2": "Advanced Mathematics",
 
-  "titleExperiences": "Experiences",
-  "titleE1": "Student Tutor – Academic Support",
-  "companyE1": "University Institute of Technology (IUT) of Lens",
-  "periodE1": "September 2025 – Present",
-  "descriptionE1": "Weekly tutoring sessions for first-year students: assisting with course understanding, providing personalized support, and monitoring academic progress. Developed strong skills in pedagogy, communication, and organization.",
+    "titleExperiences": "Experiences",
+    "titleE1": "Student Tutor – Academic Support",
+    "companyE1": "University Institute of Technology (IUT) of Lens",
+    "periodE1": "September 2025 – Present",
+    "descriptionE1": "Weekly tutoring sessions for first-year students: assisting with course understanding, providing personalized support, and monitoring academic progress. Developed strong skills in pedagogy, communication, and organization.",
 
-  "titleE2": "Observation Internship – IT Department",
-  "companyE2": "ALKERN",
-  "periodE2": "June 2021",
-  "descriptionE2": "Full immersion in a corporate IT department: user support, system maintenance, and introduction to software development.",
-  "Tirer1E2": "Backup management and technical support (hardware/software)",
-  "Tirer2E2": "Exposure to professional programming languages: PHP, LANSA, RPG",
-  "Tirer3E2": "Infrastructure: Windows servers, IBM AS/400, networking & IP telephony",
-  "projectLinkE2": "https://alkern.zerbmel.fr/",
-  "projectButtonE2": "View the created website"
+    "titleE2": "Observation Internship – IT Department",
+    "companyE2": "ALKERN",
+    "periodE2": "June 2021",
+    "descriptionE2": "Full immersion in a corporate IT department: user support, system maintenance, and introduction to software development.",
+    "Tirer1E2": "Backup management and technical support (hardware/software)",
+    "Tirer2E2": "Exposure to professional programming languages: PHP, LANSA, RPG",
+    "Tirer3E2": "Infrastructure: Windows servers, IBM AS/400, networking & IP telephony",
+    "projectLinkE2": "https://alkern.zerbmel.fr/",
+    "projectButtonE2": "View the created website"
   },
   "buttons": {
     "downloadCV": "Download CV"
@@ -99,7 +100,27 @@
     "techP2": ["HTML", "CSS","Git", "GitHub"],
     "githubLinkP2": "https://github.com/Shun-codes/L-Air-du-Cinema"
   },
+  "contact": {
+    "title": "Contact Me",
+    "intro": "Below you’ll find my contact details as well as a form if you’d like to reach out directly by email.",
+    "infoTitle": "My Contact Information",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "phone": "Phone",
+    "formTitle": "Contact Form",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "status": {
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    }
+  },
   "footer": {
-    "text": "© 2025 Lembrez Shun. All rights reserved."
+    "text": "Lembrez Shun. All rights reserved."
   }
 }

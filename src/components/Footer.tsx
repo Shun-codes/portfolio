@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               LinkedIn
             </a>
             <a 
-              href="mailto:shun.62350@orange.fr"
+              href="mailto:contact@zerbmel.fr"
               className="text-gray-400 hover:text-yellow-400 transition-colors"
             >
               Contact

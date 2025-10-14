@@ -5,12 +5,13 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Contact from './pages/Contact';
 import './i18n';
 
 
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'skills' | 'projects'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'skills' | 'projects' | 'contact'>('home');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 text-white">
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         {currentPage === 'about' && <About />}
         {currentPage === 'skills' && <Skills />}
         {currentPage === 'projects' && <Projects />}
+        {currentPage === 'contact' && <Contact />}
       </main>
       
       <Footer />

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface HeaderProps {
-  currentPage: 'home' | 'about' | 'skills' | 'projects';
-  setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects') => void;
+  currentPage: 'home' | 'about' | 'skills' | 'projects' | 'contact';
+  setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => void;
 }
 
 const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
     i18n.changeLanguage(newLang);
   };
 
-  const handleNavigate = (page: 'home' | 'about' | 'skills' | 'projects') => {
+  const handleNavigate = (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => {
     setCurrentPage(page);
     setIsMenuOpen(false);
   };
@@ -25,6 +25,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
     { key: 'about', label: t('nav.about') },
     { key: 'skills', label: t('nav.skills') },
     { key: 'projects', label: t('nav.projects') },
+    { key: 'contact', label: t('nav.contact') },
   ];
 
   return (
