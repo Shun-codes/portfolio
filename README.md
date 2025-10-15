@@ -2,8 +2,7 @@
 
 Portfolio personnel moderne construit avec **React**, **TypeScript** et **Tailwind CSS**.
 
-
-Test de l'herbegement de mon portfolio !
+Herbergement disponible : https://portfolio.zerbmel.fr/
 
 
 ---
@@ -28,6 +27,9 @@ Test de l'herbegement de mon portfolio !
 
 - **Home** - Page d'accueil avec présentation
 - **About** - À propos de moi et téléchargement du CV
+- **Skills** - Page qui liste mes compétences
+- **Projects** - Page dédiée a mes projets
+- **Contact** - Page contact avec un formulaire de contact lié a un mail pro lié a mon hebergeur avec style perso!
 
 ...
 
