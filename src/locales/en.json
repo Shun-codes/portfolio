@@ -26,7 +26,11 @@
     "project1Title" : "Bomberman",
     "project2Title" : "Website ",
     "viewProjectButton" : "View the project",
-    "viewAllProjects": "View all my projects"
+    "viewAllProjects": "View all my projects",
+
+    "contactTitle": "Contact Me",
+    "contactDescription": "Do you have a project in mind or just want to chat? Feel free to get in touch!",
+    "contactButton": "Contact Me via Form"
   },
   "about": {
     "title": "About Me",

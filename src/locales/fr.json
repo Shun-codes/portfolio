@@ -26,7 +26,11 @@
     "project1Title" : "Bomberman",
     "project2Title" : "Site Web entreprise",
     "viewProjectButton" : "Voir le projet",
-    "viewAllProjects": "Voir tous mes projets"
+    "viewAllProjects": "Voir tous mes projets",
+
+    "contactTitle" : "Contactez-moi",
+    "contactDescription" : "Vous avez un projet en tête ou souhaitez simplement échanger ? N'hésitez pas à me contacter !",
+    "contactButton" : "Me contacter par formulaire"
   },
   "about": {
     "title": "À propos de moi",
