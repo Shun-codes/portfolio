@@ -1,13 +1,9 @@
 import React, { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
-import StagePopup from '../components/StagePopup';
 
-interface ContactProps {
-  setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => void;
-}
 
-const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
+const Contact: React.FC = () => {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState<string>('');
@@ -21,7 +17,7 @@ const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
     }
 
     setIsSubmitting(true);
-    setStatus(t("contact.form.sending") || 'Envoi en cours...');
+    setStatus(t("contact.form.sending"));
 
     if (form.current) {
       emailjs
@@ -33,13 +29,13 @@ const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
         )
         .then(
           () => {
-            setStatus(t("contact.form.success") || 'Message envoyé avec succès !');
+            setStatus(t("contact.form.success"));
             form.current?.reset();
             setIsSubmitting(false);
           },
           (error) => {
             console.error('Erreur:', error);
-            setStatus(t("contact.form.error") || 'Erreur lors de l\'envoi. Réessayez.');
+            setStatus(t("contact.form.error"));
             setIsSubmitting(false);
           }
         );
@@ -49,9 +45,6 @@ const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
   return (
     <section className="min-h-screen bg-gray-900 py-24 px-6">
       <div className="max-w-6xl mx-auto space-y-16">
-        
-        {/* Pop-up Stage/Alternance */}
-        <StagePopup setCurrentPage={setCurrentPage} />
 
         {/* Texte d'intro */}
         <div className="text-center space-y-4 max-w-3xl mx-auto">
@@ -146,8 +139,8 @@ const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
               className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-6 py-4 rounded-xl font-semibold hover:shadow-lg hover:shadow-yellow-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none"
             >
               {isSubmitting 
-                ? (t("contact.form.sending") || 'Envoi en cours...') 
-                : (t("contact.form.submit") || 'Envoyer le message')
+                ? (t("contact.form.sending")) 
+                : (t("contact.form.submit"))
               }
             </button>
           </form>

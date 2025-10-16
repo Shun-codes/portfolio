@@ -79,7 +79,7 @@
     "Tirer3E2": "Infrastructure: Windows servers, IBM AS/400, networking & IP telephony",
     "projectLinkE2": "https://alkern.zerbmel.fr/",
     "projectButtonE2": "View the created website",
-    
+
     "passionTitle": "My Passion for Computer Science",
     "passionIntro": "Since my childhood, I have always been drawn to computers, video games, and the desire to always know \"How does this work?\"",
     "passionLycee": "At first, it was mainly mathematics that interested me, long before I discovered the Digital and Computer Science (NSI) specialization, which precisely combines math and computer science. In middle school, there wasn’t really an equivalent subject: the closest was visual arts, where I often stood out thanks to original projects. I loved experimenting and innovating, whether with 3D printing, laser engraving, or creating websites. This curiosity naturally led me to choose the NSI specialization in high school, which I immediately enjoyed. There, I discovered programming and wrote my first lines of code, notably in Python and HTML/CSS.",
@@ -144,9 +144,8 @@
       "email": "Email",
       "subject": "Subject",
       "message": "Message",
-      "submit": "Send Message"
-    },
-    "status": {
+      "submit": "Send Message",
+      "sending": "Sending...",
       "success": "Message sent successfully!",
       "error": "An error occurred. Please try again."
     }

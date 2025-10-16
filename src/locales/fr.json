@@ -144,10 +144,9 @@
       "email": "Email",
       "subject": "Objet",
       "message": "Message",
-      "submit": "Envoyer le message"
-    },
-    "status": {
-      "success": "Message envoyé avec succès !",
+      "submit": "Envoyer le message",
+      "sending" : "Envoi en cours...",
+      "success" : "Message envoyé avec succès !",
       "error": "Une erreur est survenue. Réessayez."
     }
   },

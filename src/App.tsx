@@ -22,7 +22,7 @@ const App: React.FC = () => {
         {currentPage === 'about' && <About setCurrentPage={setCurrentPage} />}
         {currentPage === 'skills' && <Skills />}
         {currentPage === 'projects' && <Projects />}
-        {currentPage === 'contact' && <Contact setCurrentPage={setCurrentPage} />}
+        {currentPage === 'contact' && <Contact />}
       </main>
       
       <Footer />
