@@ -10,6 +10,18 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "popup": {
+    "title": "Active Search",
+    "showButton": "Internship/Apprenticeship",
+    "stage": "Internship",
+    "alternance": "Apprenticeship",
+    "startDate": "Start Date",
+    "duration": "For a duration of",
+    "dateStage": "April 13, 2026",
+    "dureeStage": "8 to 10 weeks",
+    "dateAlternance": "January 2026",
+    "contactButton": "Contact Me"
+  },
   "home": {
     "bienvenue": "Welcome to my portfolio",
     "title": "Lembrez Shun",

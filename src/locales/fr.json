@@ -10,6 +10,18 @@
     "projects": "Projets",
     "contact": "Contact"
   },
+  "popup" : {
+    "title": "Recherche active",
+    "showButton": "Stage/Alternance",
+    "stage" : "Stage",
+    "alternance" : "Alternance",
+    "startDate": "Date de début",
+    "duration": "Pour une durée de",
+    "dateStage": "13 Avril 2026",
+    "dureeStage": "8 à 10 semaines",
+    "dateAlternance": "Janvier 2026",
+    "contactButton": "Me contacter"
+  },
   "home": {
     "bienvenue": "Bienvenue sur mon portfolio",
     "title": "Lembrez Shun",

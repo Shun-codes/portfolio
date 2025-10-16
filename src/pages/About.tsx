@@ -1,11 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import StagePopup from '../components/StagePopup';
 
-const About: React.FC = () => {
+interface AboutProps {
+  setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => void;
+}
+
+const About: React.FC<AboutProps> = ({ setCurrentPage }) => {
   const { t } = useTranslation();
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-20">
+
+      {/* Pop-up Stage/Alternance */}
+      <StagePopup setCurrentPage={setCurrentPage} />
+
       <div className="flex items-center justify-center min-h-[70vh]">
         <div className="text-center space-y-8 max-w-3xl">
 

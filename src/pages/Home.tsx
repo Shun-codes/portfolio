@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import StagePopup from '../components/StagePopup';
 
 interface HomeProps {
   setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => void;
@@ -10,6 +11,9 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 md:py-20">
+
+      {/* Pop-up Stage/Alternance */}
+      <StagePopup setCurrentPage={setCurrentPage} />
 
       <section className="min-h-[90vh] flex flex-col items-center justify-center text-center space-y-8 relative">
         
