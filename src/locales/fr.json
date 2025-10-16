@@ -78,7 +78,22 @@
     "Tirer2E2": "Découverte langages pro : PHP, LANSA, RPG",
     "Tirer3E2": "Infrastructure : serveurs Windows, IBM AS/400, réseau & téléphonie IP",
     "projectLinkE2": "https://alkern.zerbmel.fr/",
-    "projectButtonE2": "Voir le site créé"
+    "projectButtonE2": "Voir le site créé",
+
+    "passionTitle": "Ma passion pour l'informatique",
+    "passionIntro": "Depuis mon enfance, j'ai toujours été attirée par l'informatique (l'ordinateur, les jeux vidéo et l'envie de toujours savoir \"Comment ça marche ça ?\")",
+    "passionLycee": "Au départ, c’est surtout les mathématiques qui m’attiraient, bien avant que je ne découvre la spécialité Numérique et Sciences de l’Informatique (NSI), qui mêle justement des notions de maths et d’informatique. Au collège, il n’existait pas vraiment de matière équivalente : le plus proche était l’art plastique, où je me démarquais souvent grâce à des projets originaux. J’aimais expérimenter et innover, que ce soit avec l’impression 3D, la gravure laser ou la création de sites web. Cette curiosité m’a naturellement conduite à choisir la spécialité NSI au lycée, qui m’a tout de suite beaucoup plu. J’y ai découvert la programmation et écrit mes premières lignes de code, notamment en Python et en HTML/CSS",
+    "passionBUT": "Ma première année de BUT a confirmé mon intérêt pour l'informatique, et plus précisément pour le développement. J'ai pu acquérir des bases solides et appris à travailler en équipe sur mes premiers \"vrais\" projets.",
+    "beyondCodeTitle": "Et au-delà du code ?",
+    "sportTitle": "Sport",
+    "sportDesc1": "J’aime aussi faire du sport, notamment l’escalade, qui me procure un vrai sentiment de liberté, ainsi que la natation rarement.",
+    "sportDesc2":  "Je fais également du tir sportif de temps en temps — une passion que j’ai probablement développée grâce aux jeux vidéo. J’aime tout ce qui demande précision et maîtrise, des qualités que je retrouve dans cette discipline.",
+    "pianoTitle": "Piano",
+    "pianoDesc": "Je me suis récemment mis au piano, en septembre 2024, et j’apprends en autodidacte. J’aime découvrir de nouvelles choses et progresser par moi-même, ce qui rend cette activité particulièrement stimulante.",
+    "gamingTitle": "Jeux vidéo",
+    "gamingDesc1": "Je joue également à des jeux vidéo mêlant compétition, stratégie et coopération, comme Overwatch, où j’ai atteint le Top 150 européen en 2020.",
+    "gamingDesc2": "J’apprécie aussi les jeux narratifs, tels que Expedition 33, un jeu français exceptionnel avec une ambiance et des musiques incroyables.",
+    "beyondCodeConclusion": "Ces passions nourrissent ma curiosité, ma créativité et ma logique — des qualités essentielles dans le développement informatique."
   },
   "buttons": {
     "downloadCV": "Télécharger le CV"

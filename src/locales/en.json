@@ -78,7 +78,22 @@
     "Tirer2E2": "Exposure to professional programming languages: PHP, LANSA, RPG",
     "Tirer3E2": "Infrastructure: Windows servers, IBM AS/400, networking & IP telephony",
     "projectLinkE2": "https://alkern.zerbmel.fr/",
-    "projectButtonE2": "View the created website"
+    "projectButtonE2": "View the created website",
+    
+    "passionTitle": "My Passion for Computer Science",
+    "passionIntro": "Since my childhood, I have always been drawn to computers, video games, and the desire to always know \"How does this work?\"",
+    "passionLycee": "At first, it was mainly mathematics that interested me, long before I discovered the Digital and Computer Science (NSI) specialization, which precisely combines math and computer science. In middle school, there wasn’t really an equivalent subject: the closest was visual arts, where I often stood out thanks to original projects. I loved experimenting and innovating, whether with 3D printing, laser engraving, or creating websites. This curiosity naturally led me to choose the NSI specialization in high school, which I immediately enjoyed. There, I discovered programming and wrote my first lines of code, notably in Python and HTML/CSS.",
+    "passionBUT": "My first year of the undergraduate program confirmed my interest in computer science, and more specifically in development. I was able to acquire a solid foundation and learned to work in a team on my first \"real\" projects.",
+    "beyondCodeTitle": "Beyond the Code?",
+    "sportTitle": "Sports",
+    "sportDesc1": "I also enjoy practicing sports, especially rock climbing, which gives me a real sense of freedom, as well as swimming occasionally to stay fit.",
+    "sportDesc2": "I also practice target shooting from time to time — a passion I probably developed thanks to video games. I enjoy anything that requires precision and control, qualities I find in this discipline.",
+    "pianoTitle": "Piano",
+    "pianoDesc": "I recently started playing the piano, in September 2024, and I am learning as a self-taught musician. I enjoy discovering new things and progressing on my own, which makes this activity particularly stimulating.",
+    "gamingTitle": "Video Games",
+    "gamingDesc1": "I also play video games that combine competition, strategy, and cooperation, such as Overwatch, where I reached the Top 150 European ranking in 2020.",
+    "gamingDesc2": "I also enjoy narrative-driven games, such as Expedition 33, an exceptional French game with incredible music and atmosphere.",
+    "beyondCodeConclusion": "These passions nurture my curiosity, creativity, and logical thinking — qualities that are essential in software development."
   },
   "buttons": {
     "downloadCV": "Download CV"
