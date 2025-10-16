@@ -36,11 +36,11 @@ const About: React.FC<AboutProps> = ({ setCurrentPage }) => {
       {/* Ma passion pour l'informatique */}
       <section className="mb-20">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-3 mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+            <span className="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
               {t('about.passionTitle')}
-            </h2>
-          </div>
+            </span>
+          </h2>
 
           <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 md:p-8 space-y-4">
             <p className="text-gray-300 text-lg leading-relaxed">
@@ -184,8 +184,8 @@ const About: React.FC<AboutProps> = ({ setCurrentPage }) => {
       {/* Et au-delà du code ? */}
       <section className="mb-20">
         <div className="max-w-5xl mx-auto">
-          <div className="flex items-center gap-3 mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <h2 className="text-center text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
               {t('about.beyondCodeTitle')}
             </h2>
           </div>
