@@ -1,39 +1,59 @@
-import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
-import { useTranslation } from "react-i18next";
+import React, { useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
+import StagePopup from '../components/StagePopup';
 
-const Contact: React.FC = () => {
+interface ContactProps {
+  setCurrentPage: (page: 'home' | 'about' | 'skills' | 'projects' | 'contact') => void;
+}
+
+const Contact: React.FC<ContactProps> = ({ setCurrentPage }) => {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState<string>('');
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
-  const sendEmail = (e: React.FormEvent) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!form.current) return;
+    
+    if (isSubmitting) {
+      return;
+    }
 
-    emailjs
-      .sendForm(
-        "service_imwoghy",
-        "template_gkdul5g",
-        form.current,
-        "9s_DoJuz2roSwRgFm"
-      )
-      .then(
-        () => {
-          setStatus(t("contact.status.success"));
-          form.current?.reset();
-        },
-        (error) => {
-          console.error(error);
-          setStatus(t("contact.status.error"));
-        }
-      );
+    setIsSubmitting(true);
+    setStatus(t("contact.form.sending") || 'Envoi en cours...');
+
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_imwoghy", 
+          "template_gkdul5g",
+          form.current,
+          "9s_DoJuz2roSwRgFm"
+        )
+        .then(
+          () => {
+            setStatus(t("contact.form.success") || 'Message envoyé avec succès !');
+            form.current?.reset();
+            setIsSubmitting(false);
+          },
+          (error) => {
+            console.error('Erreur:', error);
+            setStatus(t("contact.form.error") || 'Erreur lors de l\'envoi. Réessayez.');
+            setIsSubmitting(false);
+          }
+        );
+    }
   };
 
   return (
     <section className="min-h-screen bg-gray-900 py-24 px-6">
       <div className="max-w-6xl mx-auto space-y-16">
-        {/* Texte d’intro */}
+        
+        {/* Pop-up Stage/Alternance */}
+        <StagePopup setCurrentPage={setCurrentPage} />
+
+        {/* Texte d'intro */}
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 bg-clip-text text-transparent">
             {t("contact.title")}
@@ -94,36 +114,55 @@ const Contact: React.FC = () => {
               name="name"
               placeholder={t("contact.form.name")}
               required
-              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-0"
+              disabled={isSubmitting}
+              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/50 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
             />
             <input
               type="email"
               name="email"
               placeholder={t("contact.form.email")}
               required
-              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-0"
+              disabled={isSubmitting}
+              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/50 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
             />
             <input
               type="text"
               name="subject"
               placeholder={t("contact.form.subject")}
-              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-0"
+              required
+              disabled={isSubmitting}
+              className="w-full p-4 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/50 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
             />
             <textarea
               name="message"
               placeholder={t("contact.form.message")}
               required
-              className="w-full p-4 h-36 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-0"
+              disabled={isSubmitting}
+              className="w-full p-4 h-36 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/50 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed resize-none"
             />
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-6 py-4 rounded-xl font-semibold hover:shadow-lg hover:shadow-yellow-500/50 transition-all"
+              disabled={isSubmitting}
+              className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-6 py-4 rounded-xl font-semibold hover:shadow-lg hover:shadow-yellow-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none"
             >
-              {t("contact.form.submit")}
+              {isSubmitting 
+                ? (t("contact.form.sending") || 'Envoi en cours...') 
+                : (t("contact.form.submit") || 'Envoyer le message')
+              }
             </button>
           </form>
 
-          {status && <p className="mt-4 text-yellow-400 font-medium text-center">{status}</p>}
+          {status && (
+            <p className={`mt-4 font-medium text-center ${
+              status.includes('succès') || status.includes('success') 
+                ? 'text-green-400' 
+                : status.includes('Erreur') || status.includes('error')
+                ? 'text-red-400'
+                : 'text-yellow-400'
+            }`}>
+              {status}
+            </p>
+          )}
         </div>
       </div>
     </section>
