@@ -23,38 +23,45 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="relative z-10 space-y-6">
-          <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 bg-clip-text text-transparent tracking-wide animate-fade-in">
+        <div className="relative z-10 space-y-6 px-2 sm:px-4">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold 
+            bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 
+            bg-clip-text text-transparent tracking-wide leading-tight">
             {t('home.bienvenue')}
           </h1>
 
           <div className="space-y-2">
-            <h2 className="text-4xl md:text-6xl font-bold text-white">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-snug">
               {t('home.title')}
             </h2>
-            <p className="text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-400">
+            <p className="text-lg sm:text-xl md:text-2xl text-transparent bg-clip-text 
+              bg-gradient-to-r from-gray-300 to-gray-400">
               {t('home.subtitle')}
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto mt-8">
-            <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8">
-              {t('home.description')}
-            </p>
-            <button
-              onClick={() => setCurrentPage('about')}
-              className="group inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1"
-            >
+          <div className="max-w-3xl mx-auto mt-6">
+          <p className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed mb-8 
+            break-words overflow-hidden max-w-full text-center px-2 sm:px-4">
+            {t('home.description')}
+          </p>
+
+          <button
+            onClick={() => setCurrentPage('about')}
+            className="group inline-flex items-center gap-3 bg-gradient-to-r 
+            from-yellow-400 to-amber-500 text-gray-900 px-8 sm:px-10 py-4 sm:py-5 
+              rounded-xl font-bold text-base sm:text-lg hover:shadow-2xl 
+              hover:shadow-yellow-500/50 transition-all duration-300 hover:scale-105">
               {t('home.aboutButton')}
-              <img src="/icons/about.svg" alt="" className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-            </button>
+              <img src="/icons/about.svg" alt="" className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-12 transition-transform" />
+          </button>
           </div>
 
           {/* Traits décoratifs */}
-          <div className="flex gap-4 justify-center pt-12">
-            <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-yellow-400 to-transparent rounded-full"></div>
-            <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent rounded-full"></div>
-            <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-yellow-300 to-transparent rounded-full"></div>
+          <div className="flex justify-center gap-2 sm:gap-4 pt-10 flex-wrap overflow-hidden px-2">
+            <div className="w-20 sm:w-28 md:w-32 h-1.5 bg-gradient-to-r from-transparent via-yellow-400 to-transparent rounded-full"></div>
+            <div className="w-20 sm:w-28 md:w-32 h-1.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent rounded-full"></div>
+            <div className="w-20 sm:w-28 md:w-32 h-1.5 bg-gradient-to-r from-transparent via-yellow-300 to-transparent rounded-full"></div>
           </div>
         </div>
       </section>
