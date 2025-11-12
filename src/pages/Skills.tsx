@@ -56,11 +56,14 @@ const Skills: React.FC = () => {
       <div className="min-h-[70vh] space-y-16">
         
         {/* Title */}
-        <div className="text-center space-y-6">
-          <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 bg-clip-text text-transparent">
+        <div className="text-center space-y-6 px-2 sm:px-4 overflow-hidden">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold 
+            bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 
+            bg-clip-text text-transparent break-words leading-tight max-w-full">
             {t('skills.title')}
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-2xl text-gray-400 
+            max-w-3xl mx-auto px-2 break-words">
             {t('skills.subtitle')}
           </p>
         </div>
@@ -71,11 +74,11 @@ const Skills: React.FC = () => {
             <div key={category.name} className="space-y-6">
               
               {/* Category Title */}
-              <div className="flex items-center gap-4">
-                <h2 className="text-3xl md:text-4xl font-bold text-white">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-4 overflow-hidden">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white break-words max-w-full">
                   {category.name}
                 </h2>
-                <div className="flex-1 h-1 bg-gradient-to-r from-yellow-400/50 to-transparent rounded-full"></div>
+                <div className="flex-1 h-1 bg-gradient-to-r from-yellow-400/50 to-transparent rounded-full min-w-[60px]"></div>
               </div>
 
               {/* Skills Grid */}
