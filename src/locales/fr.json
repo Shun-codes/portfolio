@@ -80,6 +80,15 @@
     "projectLinkE2": "https://alkern.zerbmel.fr/",
     "projectButtonE2": "Voir le site créé",
 
+    "swercTitle": "Participation au SWERC 2025",
+    "swercDesc1": "En janvier 2025, j’ai eu l’honneur de représenter l’IUT de Lens lors du SWERC (Southwestern Europe Regional Contest), une compétition internationale d’algorithmique organisée par l’ICPC.",
+    "swercDesc2": "Ce concours regroupait des équipes venues d’universités prestigieuses à travers toute l’Europe, et nous avons eu l’opportunité de travailler sur des problèmes exigeants en algorithmie, logique et optimisation.",
+    "swercDesc3": "Cette expérience m’a permis de renforcer ma rigueur, ma capacité à collaborer efficacement sous pression et ma passion pour la programmation compétitive.",
+    "swercButton": "Voir le site officiel",
+    "swercLink": "https://swerc.eu",
+    "swercLinkedInLink": "https://www.linkedin.com/posts/shun-lembrez_swerc-activity-7398752563854188544-7udw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF8EzdkBTMZNGtflD8RWtWPfK_RkzcO85nQ",
+    "swercLinkedInButton": "Post LinkedIn",
+
     "passionTitle": "Ma passion pour l'informatique",
     "passionIntro": "Depuis mon enfance, j'ai toujours été attirée par l'informatique (l'ordinateur, les jeux vidéo et l'envie de toujours savoir \"Comment ça marche ça ?\")",
     "passionLycee": "Au départ, c’est surtout les mathématiques qui m’attiraient, bien avant que je ne découvre la spécialité Numérique et Sciences de l’Informatique (NSI), qui mêle justement des notions de maths et d’informatique. Au collège, il n’existait pas vraiment de matière équivalente : le plus proche était l’art plastique, où je me démarquais souvent grâce à des projets originaux. J’aimais expérimenter et innover, que ce soit avec l’impression 3D, la gravure laser ou la création de sites web. Cette curiosité m’a naturellement conduite à choisir la spécialité NSI au lycée, qui m’a tout de suite beaucoup plu. J’y ai découvert la programmation et écrit mes premières lignes de code, notamment en Python et en HTML/CSS",

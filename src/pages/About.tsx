@@ -181,6 +181,63 @@ const About: React.FC<AboutProps> = ({ setCurrentPage }) => {
         </div>
       </section>
 
+      {/* SWERC Section */}
+<section className="mb-20">
+  <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+    <span className="bg-gradient-to-r from-yellow-300 to-amber-500 bg-clip-text text-transparent">
+      {t('about.swercTitle')}
+    </span>
+  </h2>
+
+  <div className="max-w-4xl mx-auto bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-yellow-500/30 rounded-2xl p-8 hover:scale-105 transition-all duration-300">
+    
+    <p className="text-gray-300 text-lg leading-relaxed mb-4">
+      {t('about.swercDesc1')}
+    </p>
+
+    <p className="text-gray-300 text-lg leading-relaxed mb-4">
+      {t('about.swercDesc2')}
+    </p>
+
+    <p className="text-gray-300 text-lg leading-relaxed">
+      {t('about.swercDesc3')}
+    </p>
+
+    <div className="flex flex-wrap gap-4 mt-6">
+      {t('about.swercLink') && (
+      <a
+        href={t('about.swercLink')}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-400 rounded-lg text-sm font-medium transition-all duration-300 border border-yellow-500/30 hover:border-yellow-500/50"
+      >
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+        {t('about.swercButton')}
+      </a>
+    )}
+
+    {t('about.swercLink') && (
+      <a
+        href={t('about.swercLinkedInLink')}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-400 rounded-lg text-sm font-medium transition-all duration-300 border border-yellow-500/30 hover:border-yellow-500/50"
+      >
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+        {t('about.swercLinkedInButton')}
+      </a>
+    )}
+    </div>
+
+    
+  </div>
+</section>
+
+
       {/* Et au-delà du code ? */}
       <section className="mb-20">
         <div className="max-w-5xl mx-auto">

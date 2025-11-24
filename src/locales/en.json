@@ -80,6 +80,15 @@
     "projectLinkE2": "https://alkern.zerbmel.fr/",
     "projectButtonE2": "View the created website",
 
+    "swercTitle": "Participation in SWERC 2025",
+    "swercDesc1": "In January 2025, I had the honor of representing the IUT of Lens at SWERC (Southwestern Europe Regional Contest), an international algorithmic competition organized by the ICPC.",
+    "swercDesc2": "The contest brought together teams from prestigious universities across Europe, where we worked on challenging problems involving algorithms, logic, and optimization.",
+    "swercDesc3": "This experience strengthened my rigor, teamwork under pressure, and passion for competitive programming.",
+    "swercButton": "Official website",
+    "swercLink": "https://swerc.eu",
+    "swercLinkedInLink": "https://www.linkedin.com/posts/shun-lembrez_swerc-activity-7398752563854188544-7udw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF8EzdkBTMZNGtflD8RWtWPfK_RkzcO85nQ",
+    "swercLinkedInButton": "Post LinkedIn",
+
     "passionTitle": "My Passion for Computer Science",
     "passionIntro": "Since my childhood, I have always been drawn to computers, video games, and the desire to always know \"How does this work?\"",
     "passionLycee": "At first, it was mainly mathematics that interested me, long before I discovered the Digital and Computer Science (NSI) specialization, which precisely combines math and computer science. In middle school, there wasn’t really an equivalent subject: the closest was visual arts, where I often stood out thanks to original projects. I loved experimenting and innovating, whether with 3D printing, laser engraving, or creating websites. This curiosity naturally led me to choose the NSI specialization in high school, which I immediately enjoyed. There, I discovered programming and wrote my first lines of code, notably in Python and HTML/CSS.",
