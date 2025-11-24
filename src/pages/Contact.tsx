@@ -1,17 +1,16 @@
-import React, { useRef, useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import emailjs from '@emailjs/browser';
-
+import React, { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
-  const [status, setStatus] = useState<string>('');
+  const [status, setStatus] = useState<string>("");
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     if (isSubmitting) {
       return;
     }
@@ -22,7 +21,7 @@ const Contact: React.FC = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "service_imwoghy", 
+          "service_imwoghy",
           "template_gkdul5g",
           form.current,
           "9s_DoJuz2roSwRgFm"
@@ -34,7 +33,7 @@ const Contact: React.FC = () => {
             setIsSubmitting(false);
           },
           (error) => {
-            console.error('Erreur:', error);
+            console.error("Erreur:", error);
             setStatus(t("contact.form.error"));
             setIsSubmitting(false);
           }
@@ -45,7 +44,6 @@ const Contact: React.FC = () => {
   return (
     <section className="min-h-screen bg-gray-900 py-24 px-6">
       <div className="max-w-6xl mx-auto space-y-16">
-
         {/* Texte d'intro */}
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-300 bg-clip-text text-transparent">
@@ -64,7 +62,9 @@ const Contact: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-6 text-center">
             {/* Email */}
             <div className="bg-gray-800/50 p-6 rounded-xl shadow-lg hover:scale-105 transform transition-all">
-              <h4 className="text-xl font-semibold text-yellow-400 mb-2">{t("contact.email")}</h4>
+              <h4 className="text-xl font-semibold text-yellow-400 mb-2">
+                {t("contact.email")}
+              </h4>
               <a
                 href="mailto:contact@zerbmel.fr"
                 className="text-gray-300 hover:text-yellow-400 transition-colors"
@@ -75,7 +75,9 @@ const Contact: React.FC = () => {
 
             {/* LinkedIn */}
             <div className="bg-gray-800/50 p-6 rounded-xl shadow-lg hover:scale-105 transform transition-all">
-              <h4 className="text-xl font-semibold text-yellow-400 mb-2">{t("contact.linkedin")}</h4>
+              <h4 className="text-xl font-semibold text-yellow-400 mb-2">
+                {t("contact.linkedin")}
+              </h4>
               <a
                 href="https://www.linkedin.com/in/shun-lembrez/"
                 target="_blank"
@@ -88,7 +90,9 @@ const Contact: React.FC = () => {
 
             {/* Téléphone */}
             <div className="bg-gray-800/50 p-6 rounded-xl shadow-lg hover:scale-105 transform transition-all">
-              <h4 className="text-xl font-semibold text-yellow-400 mb-2">{t("contact.phone")}</h4>
+              <h4 className="text-xl font-semibold text-yellow-400 mb-2">
+                {t("contact.phone")}
+              </h4>
               <span className="text-gray-300">06 95 66 62 10</span>
             </div>
           </div>
@@ -138,21 +142,22 @@ const Contact: React.FC = () => {
               disabled={isSubmitting}
               className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-6 py-4 rounded-xl font-semibold hover:shadow-lg hover:shadow-yellow-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none"
             >
-              {isSubmitting 
-                ? (t("contact.form.sending")) 
-                : (t("contact.form.submit"))
-              }
+              {isSubmitting
+                ? t("contact.form.sending")
+                : t("contact.form.submit")}
             </button>
           </form>
 
           {status && (
-            <p className={`mt-4 font-medium text-center ${
-              status.includes('succès') || status.includes('success') 
-                ? 'text-green-400' 
-                : status.includes('Erreur') || status.includes('error')
-                ? 'text-red-400'
-                : 'text-yellow-400'
-            }`}>
+            <p
+              className={`mt-4 font-medium text-center ${
+                status.includes("succès") || status.includes("success")
+                  ? "text-green-400"
+                  : status.includes("Erreur") || status.includes("error")
+                  ? "text-red-400"
+                  : "text-yellow-400"
+              }`}
+            >
               {status}
             </p>
           )}
