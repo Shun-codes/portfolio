@@ -128,7 +128,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           <div className="text-center">
             <button
               onClick={() => setCurrentPage("skills")}
-              className="group inline-flex items-center gap-3 bg-gradient-to-r from-gray-800 to-gray-900 border-2 border-yellow-400/50 text-yellow-400 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gradient-to-r hover:from-yellow-400 hover:to-amber-500 hover:text-gray-900 hover:border-transparent transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-yellow-500/50"
+              className="group inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-amber-500 text-gray-900 px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 hover:scale-110"
             >
               {t("home.viewAllSkills")}
               <img
