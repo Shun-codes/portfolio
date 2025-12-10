@@ -106,6 +106,7 @@
   },
   "buttons": {
     "cvLink" : "/SHUN_CV_FR.pdf",
+    "nameDownload": "SHUN_CV_FR.pdf",
     "downloadCV": "Télécharger le CV"
   },
   "skills": {

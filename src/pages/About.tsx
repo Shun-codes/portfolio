@@ -347,7 +347,7 @@ const About: React.FC<AboutProps> = ({ setCurrentPage }) => {
       <div className="pt-8 text-center">
         <a
           href={t("buttons.cvLink")}
-          download="SHUN_CV_2025.pdf"
+          download={t("buttons.nameDownload")}
           className="inline-flex items-center gap-3 px-8 py-4 text-lg font-bold text-black transition-all duration-300 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-xl hover:shadow-2xl hover:shadow-yellow-400/40 hover:scale-110"
         >
           <svg
